@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var first_number = 0, second_number = 1, next = 1;
+        for(var i = 2; i <= 21; i++) {
+            next = first_number + second_number;
+            first_number = second_number;
+            second_number = next;
+            for (;next % 5 == 0;) {
+                alert(next);
+                break;
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

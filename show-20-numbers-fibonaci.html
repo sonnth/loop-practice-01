@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script>
+    var first_number = 0, second_number = 1, next = 1;
+    for(var i = 2; i <= 21; i++) {
+        next = first_number + second_number;
+        first_number = second_number;
+        second_number = next;
+        document.write(next + " ");
+    }
+</script>
+<body>
+
+</body>
+</html>
